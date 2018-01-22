@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
- * Created by marcomolteni on 22.01.2018.
+ * Created by stevan on 22.01.2018.
  */
     @SpringBootApplication
     @EnableCaching
