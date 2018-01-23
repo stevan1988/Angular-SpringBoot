@@ -1,0 +1,17 @@
+<mat-card-content>
+  <markdown [data]="markdown"></markdown>
+  <mat-chip-list>
+    <mat-chip color="primary" selected="true">Primary main theme</mat-chip>
+    <mat-chip color="accent" selected="true">Accent main theme</mat-chip>
+  </mat-chip-list>
+  <br>
+  <mat-chip-list class="extra-theme">
+    <mat-chip color="primary" selected="true">Primary extra theme</mat-chip>
+    <mat-chip color="accent" selected="true">Accent extra theme</mat-chip>
+  </mat-chip-list>
+</mat-card-content>
+<mat-card-footer>
+    <span class="git-reference">
+         Improve this article on <a href="{{githubReference}}" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+    </span>
+</mat-card-footer>

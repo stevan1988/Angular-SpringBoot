@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~prismjs/themes/prism.css';
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+body {
+  margin: 0;
+  font-size: large;
+}
+
+mat-card {
+  max-width: 90%;
+  margin: 1.0em auto;
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+/* override the font size of prism */
+pre[class*="language-"] {
+  font-size: small;
+}

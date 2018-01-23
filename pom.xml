@@ -22,7 +22,6 @@
     <artifactId>server</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>spring-ng-demo</groupId>
             <artifactId>client</artifactId>
