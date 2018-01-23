@@ -27,8 +27,6 @@
 		<demo.version>0.0.4-SNAPSHOT</demo.version>
 	</properties>
 
-	<!-- <artifactId>server</artifactId> -->
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -94,7 +92,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-<!-- 			<version>2.0.0.M4</version> -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
