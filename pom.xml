@@ -87,7 +87,6 @@
 			<version>1.16.18</version>
 		</dependency>
 
-
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
